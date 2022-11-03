@@ -1,0 +1,53 @@
+2022-11-03T08:36:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\web_ban_hang\wp-includes\Requests\Transport\cURL.php on line 165
+
+2022-11-03T16:52:37+00:00 CRITICAL Uncaught TypeError: voku\helper\HtmlDomParser::loadHtml(): Argument #1 ($html) must be of type string, bool given, called in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 223 and defined in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:843
+Stack trace:
+#0 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(223): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(279): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(169): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(129): Simply_Static\Url_Extractor->extract_and_update_urls()
+#4 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(97): Simply_Static\Fetch_Urls_Task->handle_200_response(Object(Simply_Static\Page), true, true)
+#5 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php(122): Simply_Static\Fetch_Urls_Task->perform()
+#6 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): Simply_Static\Archive_Creation_Job->task('fetch_urls')
+#7 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#8 D:\xampp\htdocs\web_ban_hang\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#9 D:\xampp\htdocs\web_ban_hang\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 D:\xampp\htdocs\web_ban_hang\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 D:\xampp\htdocs\web_ban_hang\wp-cron.php(188): do_action_ref_array('wp_archive_crea...', Array)
+#12 {main}
+  thrown in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 843
+
+2022-11-03T17:00:41+00:00 CRITICAL Uncaught TypeError: voku\helper\HtmlDomParser::loadHtml(): Argument #1 ($html) must be of type string, bool given, called in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 223 and defined in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:843
+Stack trace:
+#0 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(223): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(279): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(169): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(129): Simply_Static\Url_Extractor->extract_and_update_urls()
+#4 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(97): Simply_Static\Fetch_Urls_Task->handle_200_response(Object(Simply_Static\Page), true, true)
+#5 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php(122): Simply_Static\Fetch_Urls_Task->perform()
+#6 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): Simply_Static\Archive_Creation_Job->task('fetch_urls')
+#7 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#8 D:\xampp\htdocs\web_ban_hang\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#9 D:\xampp\htdocs\web_ban_hang\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 D:\xampp\htdocs\web_ban_hang\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 D:\xampp\htdocs\web_ban_hang\wp-cron.php(188): do_action_ref_array('wp_archive_crea...', Array)
+#12 {main}
+  thrown in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 843
+
+2022-11-03T17:03:11+00:00 CRITICAL Uncaught TypeError: voku\helper\HtmlDomParser::loadHtml(): Argument #1 ($html) must be of type string, bool given, called in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 223 and defined in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php:843
+Stack trace:
+#0 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php(223): voku\helper\HtmlDomParser->loadHtml(false, NULL)
+#1 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(279): voku\helper\HtmlDomParser::__callStatic('str_get_html', Array)
+#2 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-url-extractor.php(169): Simply_Static\Url_Extractor->extract_and_replace_urls_in_html()
+#3 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(129): Simply_Static\Url_Extractor->extract_and_update_urls()
+#4 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php(97): Simply_Static\Fetch_Urls_Task->handle_200_response(Object(Simply_Static\Page), true, true)
+#5 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\src\class-ss-archive-creation-job.php(122): Simply_Static\Fetch_Urls_Task->perform()
+#6 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): Simply_Static\Archive_Creation_Job->task('fetch_urls')
+#7 D:\xampp\htdocs\web_ban_hang\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#8 D:\xampp\htdocs\web_ban_hang\wp-includes\class-wp-hook.php(308): WP_Background_Process->handle_cron_healthcheck()
+#9 D:\xampp\htdocs\web_ban_hang\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#10 D:\xampp\htdocs\web_ban_hang\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 D:\xampp\htdocs\web_ban_hang\wp-cron.php(188): do_action_ref_array('wp_archive_crea...', Array)
+#12 {main}
+  thrown in D:\xampp\htdocs\web_ban_hang\wp-content\plugins\simply-static\vendor\voku\simple_html_dom\src\voku\helper\HtmlDomParser.php on line 843
+
