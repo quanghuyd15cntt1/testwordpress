@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Lưu trữ Violin - quanghuy blog</title>
-	<atom:link href="/https://quanghuyd15cntt1.github.io/testwordpress/category/violin/feed/" rel="self" type="application/rss+xml" />
-	<link>/https://quanghuyd15cntt1.github.io/testwordpress/category/violin/</link>
+	<atom:link href="https://quanghuyd15cntt1.github.io/testwordpress/category/violin/feed/" rel="self" type="application/rss+xml" />
+	<link>https://quanghuyd15cntt1.github.io/testwordpress/category/violin/</link>
 	<description>Một trang web mới sử dụng WordPress</description>
 	<lastBuildDate>Thu, 20 Oct 2022 07:38:39 +0000</lastBuildDate>
 	<language>vi</language>
